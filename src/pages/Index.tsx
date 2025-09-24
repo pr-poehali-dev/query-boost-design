@@ -13,16 +13,16 @@ const Index = () => {
           <div className="flex items-center space-x-3">
             <img 
               src="/img/1e554d02-8fcf-4dc9-9739-fba49083c26e.jpg" 
-              alt="Query Boost Logo" 
+              alt="QueryBoost Logo" 
               className="h-10 w-10 rounded-lg"
             />
             <div>
-              <h1 className="text-xl font-heading font-bold text-gray-900">Query Boost</h1>
-              <p className="text-sm text-purple-600 font-medium">AI for Wildberries</p>
+              <h1 className="text-xl font-heading font-bold text-gray-900">QueryBoost</h1>
+              <p className="text-sm text-purple-600 font-medium">E-commerce optimization tool</p>
             </div>
           </div>
           <Button className="bg-gradient-to-r from-purple-600 to-magenta-600 hover:from-purple-700 hover:to-magenta-700">
-            Try for Free
+            Join as Tester
           </Button>
         </nav>
       </header>
@@ -31,28 +31,28 @@ const Index = () => {
       <section className="container mx-auto px-6 py-20 text-center">
         <div className="animate-fade-in">
           <Badge className="mb-6 bg-purple-100 text-purple-700 hover:bg-purple-100">
-            🚀 Keyword Research Revolution
+            🚀 Optimize thousands of search queries in one click
           </Badge>
           <h1 className="text-5xl md:text-6xl font-heading font-bold text-gray-900 mb-6">
-            Find the <span className="bg-gradient-to-r from-purple-600 to-magenta-600 bg-clip-text text-transparent">perfect</span><br />
-            keywords<br />
-            for Wildberries
+            <span className="bg-gradient-to-r from-purple-600 to-magenta-600 bg-clip-text text-transparent">QueryBoost</span><br />
+            E-commerce instrument<br />
+            for automatic optimal promotion
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto leading-relaxed">
-            Query Boost uses AI to find high-frequency keywords that will increase 
-            your Wildberries product sales by 3-5x
+            We help our clients spend their advertising budget more efficiently and get more views 
+            for every ruble invested. More views = more sales.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
               size="lg" 
               className="bg-gradient-to-r from-purple-600 to-magenta-600 hover:from-purple-700 hover:to-magenta-700 px-8 py-4 text-lg"
             >
-              <Icon name="Zap" className="mr-2" size={20} />
-              Start Analysis
+              <Icon name="Rocket" className="mr-2" size={20} />
+              Start Today - Join as Tester
             </Button>
             <Button size="lg" variant="outline" className="px-8 py-4 text-lg border-purple-200">
               <Icon name="Play" className="mr-2" size={20} />
-              Watch Demo
+              See How It Works
             </Button>
           </div>
         </div>
@@ -60,16 +60,16 @@ const Index = () => {
         {/* Stats */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16 animate-slide-up">
           <div className="text-center">
-            <div className="text-3xl font-heading font-bold text-purple-600">15,000+</div>
-            <div className="text-gray-600">Products Analyzed</div>
+            <div className="text-3xl font-heading font-bold text-purple-600">Data-Driven</div>
+            <div className="text-gray-600">ML-powered forecasts</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-heading font-bold text-magenta-600">350%</div>
-            <div className="text-gray-600">Average Sales Growth</div>
+            <div className="text-3xl font-heading font-bold text-magenta-600">Maximum</div>
+            <div className="text-gray-600">Budget efficiency</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-heading font-bold text-purple-600">2.4 sec</div>
-            <div className="text-gray-600">Analysis Speed</div>
+            <div className="text-3xl font-heading font-bold text-purple-600">One Click</div>
+            <div className="text-gray-600">Thousands of queries optimized</div>
           </div>
         </div>
       </section>
@@ -79,10 +79,12 @@ const Index = () => {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-heading font-bold text-gray-900 mb-6">
-              Why do sellers choose Query Boost?
+              Our Secret Sauce: Data-Driven Intelligence
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              We transform the complex keyword research process into a simple and effective solution
+              Our recommendations are not guesswork but data-driven forecasts. Using your advertising budget as input, 
+              our custom-trained ML model selects the optimal set of search queries for promotion and determines 
+              how much to allocate to each query for maximum efficiency.
             </p>
           </div>
 
@@ -91,29 +93,32 @@ const Index = () => {
               <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-6">
                 <Icon name="Brain" className="text-white" size={32} />
               </div>
-              <h3 className="text-xl font-heading font-semibold mb-4">AI Analysis</h3>
+              <h3 className="text-xl font-heading font-semibold mb-4">Custom ML Model</h3>
               <p className="text-gray-600">
-                Artificial intelligence analyzes millions of queries and finds the most effective keywords
+                Our machine learning model is trained specifically for e-commerce optimization, 
+                providing accurate predictions for query performance
               </p>
             </Card>
 
             <Card className="p-8 text-center hover:shadow-lg transition-shadow animate-scale-in">
               <div className="w-16 h-16 bg-gradient-to-r from-magenta-500 to-magenta-600 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Icon name="TrendingUp" className="text-white" size={32} />
+                <Icon name="Target" className="text-white" size={32} />
               </div>
-              <h3 className="text-xl font-heading font-semibold mb-4">Sales Growth</h3>
+              <h3 className="text-xl font-heading font-semibold mb-4">Optimal Budget Allocation</h3>
               <p className="text-gray-600">
-                The right keywords increase product visibility and conversion to purchases
+                Automatically determines the perfect amount to spend on each search query 
+                to maximize your return on advertising investment
               </p>
             </Card>
 
             <Card className="p-8 text-center hover:shadow-lg transition-shadow animate-scale-in">
               <div className="w-16 h-16 bg-gradient-to-r from-purple-500 to-magenta-600 rounded-full flex items-center justify-center mx-auto mb-6">
-                <Icon name="Clock" className="text-white" size={32} />
+                <Icon name="TrendingUp" className="text-white" size={32} />
               </div>
-              <h3 className="text-xl font-heading font-semibold mb-4">Time Saving</h3>
+              <h3 className="text-xl font-heading font-semibold mb-4">Measurable Growth</h3>
               <p className="text-gray-600">
-                Instead of hours of manual work — get results in seconds through automation
+                Get more views for every ruble invested with data-backed recommendations 
+                that drive real, measurable sales growth
               </p>
             </Card>
           </div>
@@ -125,10 +130,10 @@ const Index = () => {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-heading font-bold text-gray-900 mb-6">
-              How does Query Boost work?
+              Unlock Advanced Analytics in Just a Few Clicks
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Simple 3-step process for maximum results
+              Anyone can get personalized recommendations built on in-depth database analysis
             </p>
           </div>
 
@@ -137,13 +142,13 @@ const Index = () => {
               <div className="w-12 h-12 bg-purple-600 text-white rounded-full flex items-center justify-center mx-auto mb-6 font-heading font-bold text-xl">
                 1
               </div>
-              <h3 className="text-xl font-heading font-semibold mb-4">Upload Your Product</h3>
+              <h3 className="text-xl font-heading font-semibold mb-4">Subscribe on Website</h3>
               <p className="text-gray-600 mb-6">
-                Enter product name or upload a link to your Wildberries product page
+                Simple registration process to get started with your personalized optimization journey
               </p>
               <div className="bg-white p-4 rounded-lg shadow-sm border">
-                <p className="text-sm text-gray-500">Example:</p>
-                <p className="font-medium">"Women's Nike Sneakers"</p>
+                <Icon name="UserPlus" className="mx-auto text-purple-600 mb-2" size={24} />
+                <p className="font-medium text-sm">Quick & Easy Setup</p>
               </div>
             </div>
 
@@ -151,16 +156,13 @@ const Index = () => {
               <div className="w-12 h-12 bg-magenta-600 text-white rounded-full flex items-center justify-center mx-auto mb-6 font-heading font-bold text-xl">
                 2
               </div>
-              <h3 className="text-xl font-heading font-semibold mb-4">AI Finds Keywords</h3>
+              <h3 className="text-xl font-heading font-semibold mb-4">Input Your Budget</h3>
               <p className="text-gray-600 mb-6">
-                Algorithm analyzes search queries and competitors, selecting the best options
+                Our ML model analyzes your advertising budget to create optimal query allocation strategy
               </p>
               <div className="bg-white p-4 rounded-lg shadow-sm border">
-                <div className="flex flex-wrap gap-2">
-                  <Badge variant="secondary" className="text-xs">women's sneakers</Badge>
-                  <Badge variant="secondary" className="text-xs">Nike Air Max</Badge>
-                  <Badge variant="secondary" className="text-xs">athletic shoes</Badge>
-                </div>
+                <Icon name="Calculator" className="mx-auto text-magenta-600 mb-2" size={24} />
+                <p className="font-medium text-sm">Smart Budget Analysis</p>
               </div>
             </div>
 
@@ -168,15 +170,13 @@ const Index = () => {
               <div className="w-12 h-12 bg-gradient-to-r from-purple-600 to-magenta-600 text-white rounded-full flex items-center justify-center mx-auto mb-6 font-heading font-bold text-xl">
                 3
               </div>
-              <h3 className="text-xl font-heading font-semibold mb-4">Get Results</h3>
+              <h3 className="text-xl font-heading font-semibold mb-4">Get Recommendations</h3>
               <p className="text-gray-600 mb-6">
-                Ready list of high-frequency keywords for your product
+                Receive personalized, data-driven recommendations for optimal query promotion
               </p>
               <div className="bg-white p-4 rounded-lg shadow-sm border">
-                <div className="flex items-center justify-between text-sm">
-                  <span>Frequency: 50,000+ per month</span>
-                  <span className="text-green-600 font-medium">+287% sales</span>
-                </div>
+                <Icon name="BarChart3" className="mx-auto text-purple-600 mb-2" size={24} />
+                <p className="font-medium text-sm">Advanced Analytics</p>
               </div>
             </div>
           </div>
@@ -188,10 +188,10 @@ const Index = () => {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-heading font-bold text-gray-900 mb-6">
-              See how it works
+              Customer Success in Action
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Live example of product analysis with Query Boost
+              See how our data-driven approach transforms advertising efficiency
             </p>
           </div>
 
@@ -200,16 +200,23 @@ const Index = () => {
               <div className="grid md:grid-cols-2 gap-8 items-center">
                 <div>
                   <div className="bg-gray-50 p-6 rounded-lg mb-6">
-                    <h4 className="font-semibold mb-3 text-gray-900">Original Product:</h4>
-                    <p className="text-gray-600 mb-4">"iPhone 15 Smartphone 128GB"</p>
-                    <div className="text-sm text-gray-500">
-                      <div className="flex justify-between mb-2">
-                        <span>Current Sales:</span>
-                        <span>150 units/month</span>
+                    <h4 className="font-semibold mb-3 text-gray-900">Before QueryBoost:</h4>
+                    <div className="text-sm text-gray-600 space-y-2">
+                      <div className="flex justify-between">
+                        <span>Ad Budget:</span>
+                        <span>₽50,000/month</span>
                       </div>
                       <div className="flex justify-between">
-                        <span>Search Position:</span>
-                        <span>#47</span>
+                        <span>Manual Query Selection:</span>
+                        <span>20 queries</span>
+                      </div>
+                      <div className="flex justify-between">
+                        <span>Views per Ruble:</span>
+                        <span>0.8 views</span>
+                      </div>
+                      <div className="flex justify-between text-red-600">
+                        <span>Efficiency:</span>
+                        <span>Low</span>
                       </div>
                     </div>
                   </div>
@@ -217,21 +224,23 @@ const Index = () => {
                 
                 <div>
                   <div className="bg-gradient-to-r from-purple-50 to-magenta-50 p-6 rounded-lg">
-                    <h4 className="font-semibold mb-3 text-gray-900">Analysis Results:</h4>
-                    <div className="space-y-2 mb-4">
-                      <Badge className="bg-purple-100 text-purple-700">iPhone 15 Pro Max</Badge>
-                      <Badge className="bg-purple-100 text-purple-700">Apple smartphone original</Badge>
-                      <Badge className="bg-purple-100 text-purple-700">new phone 2024</Badge>
-                      <Badge className="bg-purple-100 text-purple-700">iPhone 15 buy cheap</Badge>
-                    </div>
-                    <div className="text-sm">
-                      <div className="flex justify-between mb-2 text-green-600 font-medium">
-                        <span>Sales Forecast:</span>
-                        <span>520 units/month (+247%)</span>
+                    <h4 className="font-semibold mb-3 text-gray-900">After QueryBoost:</h4>
+                    <div className="text-sm space-y-2">
+                      <div className="flex justify-between">
+                        <span>Same Budget:</span>
+                        <span>₽50,000/month</span>
+                      </div>
+                      <div className="flex justify-between">
+                        <span>AI-Optimized Queries:</span>
+                        <span>500+ queries</span>
                       </div>
                       <div className="flex justify-between text-green-600 font-medium">
-                        <span>Expected Position:</span>
-                        <span>#8-12</span>
+                        <span>Views per Ruble:</span>
+                        <span>2.4 views (+200%)</span>
+                      </div>
+                      <div className="flex justify-between text-green-600 font-medium">
+                        <span>Efficiency:</span>
+                        <span>Maximum</span>
                       </div>
                     </div>
                   </div>
@@ -246,10 +255,11 @@ const Index = () => {
       <section className="bg-gradient-to-r from-purple-600 via-purple-700 to-magenta-600 py-20 text-white">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-4xl font-heading font-bold mb-6">
-            Ready to boost your Wildberries sales?
+            Start Today - Join as a Tester
           </h2>
           <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-            Join thousands of successful sellers who are already using Query Boost
+            Get early access to personalized recommendations and be among the first to experience 
+            the power of data-driven e-commerce optimization
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
@@ -257,30 +267,30 @@ const Index = () => {
               className="bg-white text-purple-700 hover:bg-gray-100 px-8 py-4 text-lg font-semibold"
             >
               <Icon name="Rocket" className="mr-2" size={20} />
-              Start Free Trial
+              Join Beta Testing Program
             </Button>
             <Button 
               size="lg" 
               variant="outline" 
               className="border-white text-white hover:bg-white hover:text-purple-700 px-8 py-4 text-lg"
             >
-              <Icon name="MessageCircle" className="mr-2" size={20} />
-              Contact Us
+              <Icon name="FileText" className="mr-2" size={20} />
+              Get White Paper
             </Button>
           </div>
           
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <div>
-              <Icon name="CheckCircle" className="mx-auto mb-2" size={24} />
-              <p className="text-sm opacity-90">Free Trial Period</p>
-            </div>
-            <div>
-              <Icon name="Shield" className="mx-auto mb-2" size={24} />
-              <p className="text-sm opacity-90">Results Guarantee</p>
-            </div>
-            <div>
               <Icon name="Users" className="mx-auto mb-2" size={24} />
-              <p className="text-sm opacity-90">24/7 Support</p>
+              <p className="text-sm opacity-90">Early Access Program</p>
+            </div>
+            <div>
+              <Icon name="BarChart3" className="mx-auto mb-2" size={24} />
+              <p className="text-sm opacity-90">Personalized Analytics</p>
+            </div>
+            <div>
+              <Icon name="Zap" className="mx-auto mb-2" size={24} />
+              <p className="text-sm opacity-90">Instant Optimization</p>
             </div>
           </div>
         </div>
@@ -291,20 +301,23 @@ const Index = () => {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-heading font-bold text-gray-900 mb-6">
-              Customer Testimonials
+              Trusted by Early Adopters
             </h2>
-            <p className="text-gray-600">Learn how Query Boost helped other sellers</p>
+            <p className="text-gray-600">
+              Our solution is already trusted by small and medium-sized sellers who have seen 
+              measurable growth in their sales after applying our recommendations
+            </p>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
             <Card className="p-6 hover:shadow-lg transition-shadow">
               <div className="flex items-center mb-4">
                 <div className="w-10 h-10 bg-gradient-to-r from-purple-500 to-purple-600 rounded-full flex items-center justify-center mr-3">
-                  <span className="text-white font-semibold text-sm">AN</span>
+                  <Icon name="Store" className="text-white" size={20} />
                 </div>
                 <div>
-                  <p className="font-semibold">Anna Nikolaeva</p>
-                  <p className="text-sm text-gray-500">Clothing Seller</p>
+                  <p className="font-semibold">Small Business Owner</p>
+                  <p className="text-sm text-gray-500">Fashion & Accessories</p>
                 </div>
               </div>
               <div className="flex mb-3">
@@ -313,18 +326,19 @@ const Index = () => {
                 ))}
               </div>
               <p className="text-gray-600">
-                "Sales increased by 400% in the first month of use. Amazing tool!"
+                "QueryBoost transformed how I approach advertising. The data-driven recommendations 
+                increased my sales by 40% with the same budget."
               </p>
             </Card>
 
             <Card className="p-6 hover:shadow-lg transition-shadow">
               <div className="flex items-center mb-4">
                 <div className="w-10 h-10 bg-gradient-to-r from-magenta-500 to-magenta-600 rounded-full flex items-center justify-center mr-3">
-                  <span className="text-white font-semibold text-sm">MK</span>
+                  <Icon name="TrendingUp" className="text-white" size={20} />
                 </div>
                 <div>
-                  <p className="font-semibold">Mikhail Kozlov</p>
-                  <p className="text-sm text-gray-500">Electronics Supplier</p>
+                  <p className="font-semibold">Medium Seller</p>
+                  <p className="text-sm text-gray-500">Electronics & Gadgets</p>
                 </div>
               </div>
               <div className="flex mb-3">
@@ -333,18 +347,19 @@ const Index = () => {
                 ))}
               </div>
               <p className="text-gray-600">
-                "I used to spend hours selecting keywords. Now everything is automated!"
+                "The ML-powered optimization is incredible. I now get 3x more views per ruble 
+                spent compared to my manual approach."
               </p>
             </Card>
 
             <Card className="p-6 hover:shadow-lg transition-shadow">
               <div className="flex items-center mb-4">
                 <div className="w-10 h-10 bg-gradient-to-r from-purple-500 to-magenta-600 rounded-full flex items-center justify-center mr-3">
-                  <span className="text-white font-semibold text-sm">ES</span>
+                  <Icon name="Target" className="text-white" size={20} />
                 </div>
                 <div>
-                  <p className="font-semibold">Elena Smirnova</p>
-                  <p className="text-sm text-gray-500">Beauty Store</p>
+                  <p className="font-semibold">Marketplace Expert</p>
+                  <p className="text-sm text-gray-500">E-commerce Consultant</p>
                 </div>
               </div>
               <div className="flex mb-3">
@@ -353,7 +368,8 @@ const Index = () => {
                 ))}
               </div>
               <p className="text-gray-600">
-                "Conversion increased by 2.5x. Recommend to all Wildberries sellers!"
+                "We're building partnerships with QueryBoost because their data-driven approach 
+                delivers measurable results that our clients love."
               </p>
             </Card>
           </div>
@@ -362,13 +378,18 @@ const Index = () => {
             <div className="inline-flex items-center space-x-8 text-gray-500">
               <div className="flex items-center">
                 <Icon name="Users" className="mr-2" size={20} />
-                <span className="font-semibold text-purple-600">5,000+</span>
-                <span className="ml-1">happy customers</span>
+                <span className="font-semibold text-purple-600">Growing</span>
+                <span className="ml-1">user base</span>
               </div>
               <div className="flex items-center">
                 <Icon name="TrendingUp" className="mr-2" size={20} />
-                <span className="font-semibold text-magenta-600">284%</span>
-                <span className="ml-1">average sales growth</span>
+                <span className="font-semibold text-magenta-600">Strong</span>
+                <span className="ml-1">market traction</span>
+              </div>
+              <div className="flex items-center">
+                <Icon name="Handshake" className="mr-2" size={20} />
+                <span className="font-semibold text-purple-600">Expert</span>
+                <span className="ml-1">partnerships</span>
               </div>
             </div>
           </div>
@@ -382,22 +403,22 @@ const Index = () => {
             <div className="flex items-center space-x-3 mb-4 md:mb-0">
               <img 
                 src="/img/1e554d02-8fcf-4dc9-9739-fba49083c26e.jpg" 
-                alt="Query Boost Logo" 
+                alt="QueryBoost Logo" 
                 className="h-8 w-8 rounded-lg"
               />
               <div>
-                <h3 className="font-heading font-bold">Query Boost</h3>
-                <p className="text-sm text-gray-400">AI for Wildberries</p>
+                <h3 className="font-heading font-bold">QueryBoost</h3>
+                <p className="text-sm text-gray-400">E-commerce optimization tool</p>
               </div>
             </div>
             <div className="flex space-x-6 text-sm">
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">About Us</a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">Support</a>
-              <a href="#" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a>
+              <a href="#" className="text-gray-400 hover:text-white transition-colors">About</a>
+              <a href="#" className="text-gray-400 hover:text-white transition-colors">Contact</a>
+              <a href="#" className="text-gray-400 hover:text-white transition-colors">Privacy</a>
             </div>
           </div>
           <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400 text-sm">
-            © 2024 Query Boost. All rights reserved.
+            © 2024 QueryBoost. All rights reserved.
           </div>
         </div>
       </footer>
